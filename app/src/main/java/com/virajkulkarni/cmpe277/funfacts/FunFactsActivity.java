@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -46,5 +47,7 @@ public class FunFactsActivity extends AppCompatActivity {
 			}
 		};
 		showFactButton.setOnClickListener(listener);
+
+		Toast.makeText(this, "Welcome to Fun Facts!", Toast.LENGTH_LONG).show();
 	}
 }
