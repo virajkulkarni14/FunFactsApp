@@ -12,7 +12,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_fun_facts"
     tools:context=".FunFactsActivity"
-    android:background="#ff51b46d">
+    android:background="#ff51b46d"
+    android:id="@+id/relativeLayout">
 
     <TextView
         android:text="Did you know?"

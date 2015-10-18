@@ -1,5 +1,6 @@
 package com.virajkulkarni.cmpe277.funfacts;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -24,7 +26,11 @@ public class FunFactsActivity extends AppCompatActivity {
 
 		// declare our view variables and assign the Views from the layout file
 		final TextView factLabel = (TextView) findViewById(R.id.factTextView);
+
 		Button showFactButton = (Button) findViewById(R.id.showFactButton);
+
+		final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
+
 		View.OnClickListener listener = new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -32,6 +38,7 @@ public class FunFactsActivity extends AppCompatActivity {
 				// Instead of hard-coding, update the label with dynamic fact
 
 				factLabel.setText(fact);
+				relativeLayout.setBackgroundColor(Color.RED);
 			}
 		};
 		showFactButton.setOnClickListener(listener);
