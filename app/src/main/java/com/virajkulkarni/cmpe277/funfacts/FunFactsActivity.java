@@ -11,6 +11,8 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class FunFactsActivity extends AppCompatActivity {
 
 	@Override
@@ -25,7 +27,24 @@ public class FunFactsActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 				// When button is clicked, update fact label with a new fact!
-				String fact = "Ostriches can run faster than horses.";
+				String fact = "";
+
+				Random randomGenerator = new Random();
+				int randomNumber = randomGenerator.nextInt(3);
+
+				//convert randomNumber to text fact
+				if (randomNumber == 0) {
+					fact = "Ants stretch when they wake up in the morning.";
+				} else if (randomNumber == 1) {
+					fact = "Ostriches can run faster than horses.";
+				} else if (randomNumber == 2) {
+					fact  = "Olympic gold medals are actually made mostly out of silver.";
+				} else {
+					fact = "Looks like there was an error!";
+				}
+
+				// Instead of hard-coding, update the label with dynamic fact
+
 				factLabel.setText(fact);
 			}
 		};
