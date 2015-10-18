@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,6 +18,8 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class FunFactsActivity extends AppCompatActivity {
+
+	public static final String TAG = FunFactsActivity.class.getSimpleName();
 
 	private FactBook mFactBook = new FactBook(); // m = Member var
 	private ColorWheel mColorWheel = new ColorWheel();
@@ -49,5 +52,7 @@ public class FunFactsActivity extends AppCompatActivity {
 		showFactButton.setOnClickListener(listener);
 
 		Toast.makeText(this, "Welcome to Fun Facts!", Toast.LENGTH_LONG).show();
+
+		Log.d(TAG, "in onCreate() method!");
 	}
 }
