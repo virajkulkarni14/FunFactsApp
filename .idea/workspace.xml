@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b617b28c-a93b-4970-8336-96a3429b0cc9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/virajkulkarni/cmpe277/funfacts/FunFactsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/virajkulkarni/cmpe277/funfacts/FunFactsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fun Facts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="FunFactsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/virajkulkarni/cmpe277/funfacts/FunFactsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6077482">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.43341404">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <element signature="e#1316#1661#0" expanded="true" />
                 <element signature="e#1660#1661#0" expanded="true" />
@@ -2183,8 +2182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/virajkulkarni/cmpe277/funfacts/FunFactsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6077482">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.43341404">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="e#1316#1661#0" expanded="true" />
             <element signature="e#1660#1661#0" expanded="true" />

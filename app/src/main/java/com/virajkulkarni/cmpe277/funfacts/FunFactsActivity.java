@@ -53,6 +53,6 @@ public class FunFactsActivity extends AppCompatActivity {
 
 		Toast.makeText(this, "Welcome to Fun Facts!", Toast.LENGTH_LONG).show();
 
-		Log.d(TAG, "in onCreate() method!");
+		Log.d(TAG, "======== in onCreate() method! ========");
 	}
 }
